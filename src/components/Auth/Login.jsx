@@ -38,7 +38,7 @@ const Login = () => {
             type="password"
             placeholder="Enter your password"
           />
-          <button className="border-2 border-emerald-600 rounded-4xl py-4 px-12 mx-8 mt-12 mb-20 bg-transparent outline-none text-xl">
+          <button className="border-2 border-emerald-600 rounded-4xl py-4 px-12 mx-8 mt-12 mb-20 bg-blue-400 outline-none text-2xl font-semibold">
             Log in
           </button>
         </form>
