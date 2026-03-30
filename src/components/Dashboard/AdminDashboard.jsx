@@ -7,7 +7,7 @@ const AdminDashboard = () => {
       <Header></Header>
 
       <div>
-        <form className="p-10 flex flex-wrap w-full bg-gray-900 items-start justify-between">
+        <form className="mt-10 p-10 flex flex-wrap w-full bg-gray-900 items-start justify-between">
           <div className="py-2">
             <div>
               <h3>Task Title</h3>
@@ -20,7 +20,7 @@ const AdminDashboard = () => {
             <div>
               <h3>Date</h3>
               <input
-                className="bg-gray-400 text-black font-black px-10 py-1 border rounded-md mb-5"
+                className="bg-gray-400  text-black font-black px-18 py-1 border rounded-md mb-5"
                 type="date"
               />
             </div>
