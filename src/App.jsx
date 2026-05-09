@@ -44,7 +44,7 @@ const App = () => {
       {!user && <Login handleLogin={handleLogin} />}
       {user == "admin" && <AdminDashboard />}
       {user === "employee" && <EmployeeDashboard />}
-      <h1>hello</h1>
+      {/* <h1>hello</h1> */}
     </div>
   );
 };
